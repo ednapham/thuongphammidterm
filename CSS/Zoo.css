@@ -1,0 +1,232 @@
+@import url('https://fonts.google.com/specimen/Source+Sans+Pro');
+body{   margin:0;
+} 
+header{ 
+        background-color: #FFE4C4;
+        color: #343a40;
+        text-align:center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../IMAGE/banner.jpg);
+        background-size: 100% 100%;
+        padding:3px;
+        
+}
+
+
+nav{    font-weight: bold;
+}
+
+
+a:link {
+        text-decoration: none;
+}
+  
+a:visited {
+        text-decoration: none;
+}
+  
+a:hover {
+        text-decoration: underline;
+}
+
+p{      font-size: 1.25em;
+        background-color: #FFE4C4;
+        border-radius:10px;
+        padding:15px;
+} 
+
+footer{
+        background-color:#FFE4C4;
+        color:#343a40;
+        text-align:center;
+        font-size: .80em;
+        font-style: italic;
+        padding:25px;
+
+}
+    
+.hero-image{
+        background-image: linear-gradient(rgba(44, 41, 41, 0.5), rgba(0, 0, 0, 0.5)),url(../IMAGE/zoo.jpg);
+        width:100%;
+        height:400px;
+        padding-top:120px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    
+}
+
+.hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFE4C4;
+}
+
+.hero-text button:hover {
+        background-color: #555;
+}  
+
+
+.container{
+        display:flex;
+        flex-direction:row;
+        position: relative;
+        border: none;
+        text-align: center;
+        font-size:24px;
+        font-weight:400px;
+   
+}
+
+.container button:hover { 
+        background-color: #555;
+}
+
+
+
+    
+.columbus-zoo{
+        background-image: linear-gradient(rgba(44, 41, 41, 0.5), rgba(0, 0, 0, 0.5)), url(../IMAGE/columbus.jpg);
+        width:100%;
+        height:400px;
+        padding-top:120px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}  
+
+.franklin-zoo{
+        background-image: linear-gradient(rgba(44, 41, 41, 0.5), rgba(0, 0, 0, 0.5)), url(../IMAGE/Franklin.jpg);
+        width:100%;
+        height:400px;
+        padding-top:120px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+
+.disney-zoo{
+        background-image: linear-gradient(rgba(44, 41, 41, 0.5), rgba(0, 0, 0, 0.5)), url(../IMAGE/disney.jpg);
+        width:100%;
+        height:400px;
+        padding-top:120px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+
+.miami-zoo{
+        background-image: linear-gradient(rgba(44, 41, 41, 0.5), rgba(0, 0, 0, 0.5)), url(../IMAGE/miami.jpg);
+        width:100%;
+        height:400px;
+        padding-top:120px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    
+}
+
+.philadelphia-zoo{
+        background-image: linear-gradient(rgba(44, 41, 41, 0.5), rgba(0, 0, 0, 0.5)), url(../IMAGE/philadelphia.jpg);
+        width:100%;
+        height:400px;
+        padding-top:120px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+}
+
+    
+
+
+.hero-text button, .columbus-zoo button ,.franklin-zoo button , .disney-zoo button , .miami-zoo button , .philadelphia-zoo button { 
+        border: none;
+        display: inline-block;
+        padding: 20px 30px;
+        margin-top:100px;
+        border-radius:20px;
+        color: #343a40;
+        background-color: #FFE4C4;
+        text-align: center;
+        font-weight:bold;
+        font-size:16px;
+}
+
+      
+.h {    overflow: hidden;
+        background-color: #FFE4C4;
+}
+      
+.h a {  float: left;
+        display: block;
+        color: #343a40;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+}
+.h a:hover {
+        background-color: #555;
+        color: rgb(255, 253, 253);
+        border-radius:20px;
+      }
+      
+
+.c{     background-image:url(../IMAGE/columbus.jpg);
+        width: 100%;
+        height: 580px;
+        background-color: #3e3e3e;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+       
+.f {    background-image:url(../IMAGE/Franklin.jpg) ;
+        width: 100%;
+        height: 580px;
+        background-color: #3e3e3e;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+.d{     background-image:url(../IMAGE/disney.jpg);
+        width: 100%;
+        height: 580px;
+        background-color: #3e3e3e;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+.m{     background-image:url(../IMAGE/miami.jpg);
+        width: 100%;
+        height: 580px;
+        background-color: #3e3e3e;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+.p{     background-image:url(../IMAGE/philadelphia.jpg);
+        width: 100%;
+        height: 580px;
+        background-color: #3e3e3e;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+
+
+
